@@ -1,0 +1,116 @@
+
+body {
+    background-color: #fff;
+    background-image: url("bright-squares.png");
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: 00; */
+    line-height: 2;
+    letter-spacing: 1.5px;
+    width: 100%;
+    font-size: 16px;
+    padding: 30px;
+
+}
+
+.container {
+    max-width: 960px;
+    height: 100%;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px 50px 2px 50px;
+    box-shadow: 0px 0px 113px -39px rgba(74,73,74,1);
+} 
+
+header {
+    border-bottom: dotted 1px #3f1263;
+    font-family: 'Montez', cursive;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 3.5em;
+}
+header h3 {
+    color: #93073E;
+}
+
+.brand-me {
+    background: linear-gradient(45deg, #3f1263 30%, #ff2e63 80%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2 {
+    color: #ff2e63;
+    margin-top: 1.5em;
+    font-family: 'Abril Fatface', serif;
+    font-size: 2.25em;
+}
+
+
+hr {
+    width: 3em;
+    border: solid 2px #08d9d6;
+    margin-top: 0;
+    margin-left: 0;
+}
+ 
+ul {
+    list-style-type: none;
+}
+
+.contact a {
+    color: #3f1263;
+    transition: 0.5s;
+    
+}
+
+.tech-card i, .contact a:hover {
+    color: #08d9d6;
+    transform: scale(1.1);
+}
+
+.tech-card i {
+    font-size: 1.5rem;
+}
+/* 
+.tech-card {
+    width: 100%;
+} */
+
+footer {
+    border-top: dotted 1px #3f1263;
+}
+
+section i.fa,section i.fab {
+    font-size: 1.5em;
+    font-weight: 700;
+    
+} 
+
+footer .attribution {
+    font-weight: 700;
+    font-family: 'Montez', cursive;
+    color: #3f1263;
+}
+
+footer .attribution i.fa {
+    font-size: 1em;
+}
+
+i.fa.fa-code {
+    color: #08d9d6;
+}
+
+i.fas.fa-heart {
+    color: red;
+}
+
+/*
+all of this
+is just
+for 
+*/
